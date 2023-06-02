@@ -4,7 +4,7 @@ comments: true
 
 # 🟢 简介
 
-![techniques](../assets/techniques.svg){ width="70%" }
+![techniques](../assets/techniques.svg){ width="100%" }
 
 
 本章介绍简单的提示技术和术语。为了理解提示语/提示工程，您首先需要了解一些 *非常* 基本的AI概念。如果您已经了解以下主题，可以跳到 [下一篇文章](https://learnprompting.org/docs/basics/prompting).
@@ -45,7 +45,7 @@ comments: true
 
 下面是嵌入式站点 **截图** :
 
-![dyno_example](../assets/basics/dyno_example.png){ width="70%" }
+![dyno_example](../assets/basics/dyno_example.png){ width="100%" }
 
 你应该能够看到此段下方与此截图完全相同的嵌入站点。如果不能看到，则可能需要启用JavaScript或使用其它浏览器。
 
@@ -66,7 +66,7 @@ comments: true
 
 当你导航到 [OpenAI API 密钥](https://platform.openai.com/account/api-keys) 页面时, 单击 **创建新密钥** 按钮. 它将弹出一个包含如下文本字符串的窗口:
 
-![dyno_example](../assets/API_key.png){ width="70%" }
+![dyno_example](../assets/API_key.png){ width="100%" }
 
 
 将此密码放入嵌入式站点中并点击 **保存**。你就可以在这个站点里面体验chatGPT了。

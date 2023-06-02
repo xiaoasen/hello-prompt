@@ -119,7 +119,7 @@ extra_css:
 # Page tree
 nav:
   - 0. &nbsp; &nbsp; 基础:
-    - chapter_preface/index.md
+    - chapter_basics/index.md
     - 0.1. &nbsp; 简介: chapter_basics/introduction.md
-    - 0.2. &nbsp; 如何使用本书: chapter_preface/suggestions.md
+    - 0.2. &nbsp; 提示过程: chapter_basics/prompting.md
     - 0.3. &nbsp; 小结: chapter_preface/summary.md
