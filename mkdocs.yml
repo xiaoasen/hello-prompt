@@ -1,5 +1,5 @@
 # Project information
-site_name: Hello 提示语
+site_name: 你好，提示工程
 site_url: http://chat.kaisen.me:9000/
 site_author: MiniKaisen
 site_description: 一本动画图解、能运行、可提问的提示语工程入门书
@@ -118,7 +118,7 @@ extra_css:
 
 # Page tree
 nav:
-  - 0. &nbsp; &nbsp; 你好，提示工程:
+  - 0. &nbsp; &nbsp; 基础:
     - chapter_preface/index.md
     - 0.1. &nbsp; 关于本书: chapter_preface/about_the_book.md
     - 0.2. &nbsp; 如何使用本书: chapter_preface/suggestions.md
