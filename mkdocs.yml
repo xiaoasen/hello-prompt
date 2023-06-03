@@ -123,3 +123,4 @@ nav:
     - 0.1. &nbsp; 简介: chapter_basics/introduction.md
     - 0.2. &nbsp; 提示过程: chapter_basics/prompting.md
     - 0.3. &nbsp; 给出指令: chapter_basics/giving_instructions.md
+    - 0.4. &nbsp; 角色提示: chapter_basics/role_prompting.md
