@@ -174,3 +174,46 @@ nav:
     - 6.4. &nbsp; 大语言模型自我评估: chapter_reliability/llm_self_evaluation.md
     - 6.5. &nbsp; 校准大语言模型: chapter_reliability/calibrating_llms.md
     - 6.6. &nbsp; 数学: chapter_reliability/math.md
+  - 7. &nbsp; &nbsp; 图片提示词:
+    - chapter_image_prompting/index.md
+    - 7.1. &nbsp; 介绍: chapter_image_prompting/introduction.md
+    - 7.2. &nbsp; 样式修饰符: chapter_image_prompting/style_modifiers.md
+    - 7.3. &nbsp; 质量增强器: chapter_image_prompting/quality_boosters.md
+    - 7.4. &nbsp; 重复: chapter_image_prompting/repetition.md
+    - 7.5. &nbsp; 加权: chapter_image_prompting/weighted_terms.md
+    - 7.6. &nbsp; 修复变形生成: chapter_image_prompting/fix_deformed_generations.md
+    - 7.7. &nbsp; Midjourney: chapter_image_prompting/midjourney.md
+    - 7.8. &nbsp; 资源: chapter_image_prompting/resources.md
+  - 8. &nbsp; &nbsp; 破解提示: 
+    - chapter_prompt_hacking/index.md
+    - 8.1. &nbsp; 介绍: chapter_prompt_hacking/introduction.md
+    - 8.2. &nbsp; 提示注入: chapter_prompt_hacking/prompt_injection.md
+    - 8.3. &nbsp; 提示泄露: chapter_prompt_hacking/prompt_leaking.md
+    - 8.4. &nbsp; 越狱: chapter_prompt_hacking/jailbreaking.md
+    - 8.5. &nbsp; 防御措施: chapter_prompt_hacking/defensive_measures.md
+    - 8.6. &nbsp; 进攻措施: chapter_prompt_hacking/offensive_measures.md
+  - 9. &nbsp; &nbsp; 工具:
+    - chapter_tooling/index.md
+    - 9.1. &nbsp; 提示工程工具: chapter_tooling/prompt_engineering_tools.md
+    - 9.2. &nbsp; 提示工程集成环境: chapter_tooling/prompt_engineering_ides.md
+  - 10. &nbsp; &nbsp; 提示微调:
+    - chapter_prompt_tuning/index.md
+    - 10.1. &nbsp; 软提示: chapter_prompt_tuning/soft_prompts.md
+    - 10.2. &nbsp; 可解释的软提示: chapter_prompt_tuning/interpretable_soft_prompts.md
+  - 11. &nbsp; &nbsp; 杂项:
+    - chapter_miscellaneous/index.md
+    - 11.1. &nbsp; 检测AI生成的文本: chapter_miscellaneous/detecting_ai_generated_text.md
+    - 11.2. &nbsp; 检测的欺骗: chapter_miscellaneous/detection_trickery.md
+    - 11.3. &nbsp; 音乐生成: chapter_miscellaneous/music_generation.md
+  - 12. &nbsp; &nbsp; 词汇参考:
+    - chapter_vocabulary_reference/index.md
+  - 13. &nbsp; &nbsp; 参考文献:
+    - chapter_bibliography/index.md
+  - 14. &nbsp; &nbsp; 提示产品:
+    - chapter_prompted_products/index.md
+  - 15. &nbsp; &nbsp; 额外资源:
+    - chapter_additional_resources/index.md
+  - 16. &nbsp; &nbsp; 一些应用:
+    - chapter_credits/index.md
+  - 17. &nbsp; &nbsp; 热门主题:
+    - chapter_hot_topics/index.md
