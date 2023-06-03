@@ -1,5 +1,3 @@
-<div class="center-table" markdown>
 
+# 1. 基础
 ![基础](../assets/covers/chapter_preface.jpg){ width="100%" }
-
-</div>

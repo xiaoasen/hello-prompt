@@ -118,9 +118,10 @@ extra_css:
 
 # Page tree
 nav:
-  - 0. &nbsp; &nbsp; 基础:
+  - 1. &nbsp; &nbsp; 基础:
     - chapter_basics/index.md
-    - 0.1. &nbsp; 简介: chapter_basics/introduction.md
-    - 0.2. &nbsp; 提示过程: chapter_basics/prompting.md
-    - 0.3. &nbsp; 给出指令: chapter_basics/giving_instructions.md
-    - 0.4. &nbsp; 角色提示: chapter_basics/role_prompting.md
+    - 1.1. &nbsp; 简介: chapter_basics/introduction.md
+    - 1.2. &nbsp; 提示过程: chapter_basics/prompting.md
+    - 1.3. &nbsp; 给出指令: chapter_basics/giving_instructions.md
+    - 1.4. &nbsp; 角色提示: chapter_basics/role_prompting.md
+    - 1.5. &nbsp; 多范例提示: chapter_basics/few_shot_prompting.md
