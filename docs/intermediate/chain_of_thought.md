@@ -1,18 +1,12 @@
 ---
-sidebar_position: 3
-locale: en-us
-style: chicago
+comments: true
 ---
 
 # 🟢 思维链提示过程
 
 思维链(CoT)提示过程(@wei2022chain)是一种最近开发的提示方法，它鼓励大语言模型解释其推理过程。下图(@wei2022chain) 显示了 %%few shot standard prompt|few shot standard prompt%%（左)与链式思维提示过程（右）的比较。
 
-import CoTExample from '@site/docs/assets/chain_of_thought_example.png';
-
-<div style={{textAlign: 'center'}}>
-  <img src={CoTExample} style={{width: "750px"}} />
-</div>
+![chain_of_thought_example](../assets/chain_of_thought_example.png)
 
 <div style={{textAlign: 'center'}}>
 常规提示过程 vs 思维链提示过程(Wei et al.)
@@ -37,11 +31,7 @@ import CoTExample from '@site/docs/assets/chain_of_thought_example.png';
 
 思维链已被证明对于算术、常识和符号推理等任务的结果有所改进(@wei2022chain)。特别是，在GSM8K(@cobbe2021training)基准测试上，PaLM 540B(@chowdhery2022palm)的提示达到了57%的解决率准确性。
 
-import PromptedPaLM from '@site/docs/assets/prompted_palm.png';
-
-<div style={{textAlign: 'center'}}>
-  <img src={PromptedPaLM} style={{width: "300px"}} />
-</div>
+![prompted_palm](../assets/prompted_palm.png)
 
 <div style={{textAlign: 'center'}}>
 Comparison of models on the GSM8K benchmark (Wei et al.)

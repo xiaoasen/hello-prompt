@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+comments: true
 ---
 
 # 🟡 自洽性
@@ -8,11 +8,8 @@ sidebar_position: 5
 
 在下面的图中，左侧的提示是使用少样本思路链范例编写的。使用这个提示，独立生成多个思路链，从每个思路链中提取答案，通过“边缘化推理路径”来计算最终答案。实际上，这意味着取多数答案。
 
-import SCImage from '@site/docs/assets/self_consistency.png';
+![self_consistency](../assets/self_consistency.png)
 
-<div style={{textAlign: 'center'}}>
-  <img src={SCImage} style={{width: "750px"}} />
-</div>
 <div style={{textAlign: 'center'}}>
 自洽性 (Wang et al.)
 </div>

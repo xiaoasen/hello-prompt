@@ -1,5 +1,5 @@
 ---
-sidebar_position: 7
+comments: true
 ---
 
 # 🟢 提示的关键要素
@@ -10,11 +10,7 @@ sidebar_position: 7
 
 令人惊讶的是，在提示中提供少量 %%exemplars|exemplars%% 时，实际答案 (%%gold|gold_labels%%) 并不重要。正如下图所示，即使在样本中提供随机标签，性能也几乎不受影响(@min2022rethinking)。在此图像中，“演示”与示例相同。
 
-import GoldUn from '@site/docs/assets/gold_unimportant.png';
-
-<div style={{textAlign: 'center'}}>
-  <img src={GoldUn} style={{width: "750px"}} />
-</div>
+![gold_unimportant](/assets/gold_unimportant.png)
 
 ## 标签空间很重要
 

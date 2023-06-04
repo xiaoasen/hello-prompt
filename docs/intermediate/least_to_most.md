@@ -1,5 +1,5 @@
 ---
-sidebar_position: 7
+comments: true
 ---
 
 # 🟡 最少到最多提示过程
@@ -8,12 +8,7 @@ sidebar_position: 7
 
 与思维链提示过程类似，需要解决的问题被分解成一组建立在彼此之上的子问题。在第二步中，这些子问题被逐个解决。与思维链不同的是，先前子问题的解决方案被输入到提示中，以尝试解决下一个问题。
 
-import leastToMost from '@site/docs/assets/least_to_most_formal.png'
-
-<div style={{textAlign: 'center'}}>
-  <img src={leastToMost} style={{width: "600px"}}
-        alt="LtM 的图示" />
-</div>
+![least_to_most_formal](../assets/least_to_most_formal.png)
 
 <div style={{textAlign: 'center'}}>
    LtM 的图示

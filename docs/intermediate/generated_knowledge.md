@@ -1,29 +1,22 @@
 ---
-sidebar_position: 7
+comments: true
 ---
 
 # 🟡 知识生成
 
 生成的知识方法（Generated Knowledge Approach）(@liu2021generated)要求 %%LLM|LLM%% 在生成响应之前生成与问题相关的可能有用的信息。该方法由两个中间步骤组成，即知识生成和知识集成。
 
-import KGImage from '@site/docs/assets/knowledge_generation.png';
-
-<div style={{textAlign: 'center'}}>
-  <img src={KGImage} style={{width: "750px"}} />
-</div>
+![knowledge_generation](../assets/knowledge_generation.png)
 <div style={{textAlign: 'center'}}>
 知识生成(Liu et al.)
 </div>
 
 ## 知识生成
 
-在知识生成步骤中，要求 %%LLM|LLM%% 生成有关**问题**的一组事实。大语言模型将以 few-shot 方式进行提示，如下所示。使用相同提示生成 M 个不同的完成。
+在知识生成步骤中，要求 %%LLM|LLM%% 生成有关 **问题** 的一组事实。大语言模型将以 few-shot 方式进行提示，如下所示。使用相同提示生成 M 个不同的完成。
 
-import KGP1Image from '@site/docs/assets/gen_k_p1.png';
+![gen_k_p1](../assets/gen_k_p1.png)
 
-<div style={{textAlign: 'center'}}>
-  <img src={KGP1Image} style={{width: "500px"}} />
-</div>
 <div style={{textAlign: 'center'}}>
 生成的知识示例(Liu et al.)
 </div>
@@ -33,7 +26,7 @@ import KGP1Image from '@site/docs/assets/gen_k_p1.png';
 
 接下来，我们生成“知识增强”问题，并用它们提示 %%LLM|LLM%% 获得最终答案。最好的理解方法是通过一个例子来说明。
 
-假设我们正在尝试回答**问题**“大多数袋鼠有 <mask\> 肢体”。假设在知识生成步骤中，我们生成了 2 个知识（M=2）：
+假设我们正在尝试回答 **问题** “大多数袋鼠有 <mask\> 肢体”。假设在知识生成步骤中，我们生成了 2 个知识（M=2）：
 
 - 知识1：“袋鼠是生活在澳大利亚的有袋动物。”
 
