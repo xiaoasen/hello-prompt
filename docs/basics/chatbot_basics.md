@@ -1,5 +1,5 @@
 ---
-sidebar_position: 80
+comments: true
 ---
 
 # 🟢 聊天机器人基础
@@ -10,20 +10,14 @@ sidebar_position: 80
 
 ### 风格指导（Style Guidance）
 
-import unguided_question from '../../assets/unguided_question.png';
-import limerick_question from '../../assets/limerick_question.png';
 
 风格指导就是要求 AI 以某种特定的风格来表达。如果没有给出风格指导的问题，ChatGPT 通常会返回一两个短段落的回答，少数需要更长的回答时会返回更多内容。
 
-<div style={{textAlign: 'center'}}>
-  <img src={unguided_question} style={{width: "500px"}} />
-</div>
+![unguided_question](../assets/unguided_question.png)
 
 ChatGPT 的回答常以中性正式的语气表达，同时提供一些细节，这非常不错！不过，如果我们想要更好的回答，可以在提示末尾自定义 ChatGPT 的回答风格。如果我们想要更加随意的回答，可以要求它以友好或非正式的语气表达；如果我们想要更易读的格式，可以给出相同的问题，但要求以无序列表的形式回答；如果我们想要一个有趣的回答，可以要求它以连续的打油诗形式回答（这是我个人最喜欢的）。
 
-<div style={{textAlign: 'center'}}>
-  <img src={limerick_question} style={{width: "450px"}} />
-</div>
+![limerick_question](../assets/limerick_question.png)
 
 一个更详细的风格提示的例子可能是：
 
@@ -54,20 +48,14 @@ ChatGPT 的回答常以中性正式的语气表达，同时提供一些细节，
 
     如果您理解并准备开始，请回答“是”。
     
-import unprimed_question from '../../assets/unprimed_question.png';
-import primed_question from '../../assets/primed_question.png';
 
 以下是一个未引导的问题示例，询问 ChatGPT 关于哲学领域中最有趣的部分。它使用列表，通俗冷静地表达，然而在解释中不是非常具体。
 
-<div style={{textAlign: 'center'}}>
-  <img src={unprimed_question} style={{width: "650px"}} />
-</div>
+![unprimed_question](../assets/unprimed_question.png)
 
 在第二个例子中，我们提供了一个引导提示给 ChatGPT，并以正确的形式提出了问题。你应该注意到，它的回答与第一个例子有一些相似之处，例如，它为各个领域提供的例子问题是相似的，但它提供了更深入的背景信息，放弃了列表格式，而是采用连贯的段落，将例子与现实生活联系起来。
 
-<div style={{textAlign: 'center'}}>
-  <img src={primed_question} style={{width: "650px"}} />
-</div>
+![primed_question](../assets/primed_question.png)
 
 在提示中引入引导是一种更高级的与聊天机器人交互的方式。每个提示中添加规范仍然有帮助，因为模型随着时间的推移可能会失去对引导的追踪，但它将为你的 AI 交互提升很多清晰度！
 

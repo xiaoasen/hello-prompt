@@ -74,6 +74,12 @@ extra:
 plugins:
   - search
 
+comments:
+    enabled: true
+    # defaults to utterances unless replaced with mode: giscus
+    mode: giscus
+    type: issues
+
 # Extensions
 markdown_extensions:
   - abbr
