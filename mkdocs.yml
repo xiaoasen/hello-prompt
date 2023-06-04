@@ -119,32 +119,32 @@ extra_css:
 # Page tree
 nav:
   - 1. &nbsp; &nbsp; 基础:
-    - chapter_basics/index.md
-    - 1.1. &nbsp; 简介: chapter_basics/introduction.md
-    - 1.2. &nbsp; 提示过程: chapter_basics/prompting.md
-    - 1.3. &nbsp; 给出指令: chapter_basics/giving_instructions.md
-    - 1.4. &nbsp; 角色提示: chapter_basics/role_prompting.md
-    - 1.5. &nbsp; 多范例提示: chapter_basics/few_shot_prompting.md
-    - 1.6. &nbsp; 组合提示: chapter_basics/combining_techniques.md
-    - 1.7. &nbsp; 规范化提示: chapter_basics/formalizing_prompts.md
-    - 1.8. &nbsp; 聊天机器人基础: chapter_basics/chatbot_basics.md
-    - 1.9. &nbsp; 大语言模型(LLMs)中的隐患: chapter_basics/pitfalls_of_llms.md
-    - 1.10. &nbsp; LLM 设置: chapter_basics/llm_settings.md
-    - 1.11. &nbsp; 理解人工智能思维: chapter_basics/understanding_ai_minds.md
-    - 1.12. &nbsp; 开始你的旅程: chapter_basics/starting_your_journey.md
+    - basics/index.md
+    - 1.1. &nbsp; 简介: basics/intro.md
+    - 1.2. &nbsp; 提示过程: basics/prompting.md
+    - 1.3. &nbsp; 给出指令: basics/instructions.md
+    - 1.4. &nbsp; 角色提示: basics/roles.md
+    - 1.5. &nbsp; 多范例提示: basics/few_shot.md
+    - 1.6. &nbsp; 组合提示: basics/combining_techniques.md
+    - 1.7. &nbsp; 规范化提示: basics/formalizing.md
+    - 1.8. &nbsp; 聊天机器人基础: basics/chatbot_basics.md
+    - 1.9. &nbsp; 大语言模型(LLMs)中的隐患: basics/pitfalls.md
+    - 1.10. &nbsp; LLM 设置: basics/configuration_hyperparameters.md
+    - 1.11. &nbsp; 理解人工智能思维: basics/world.md
+    - 1.12. &nbsp; 开始你的旅程: basics/starting_your_journey.md
   - 2. &nbsp; &nbsp; 基础应用:
-    - chapter_basic_applications/index.md
-    - 2.1. &nbsp; 介绍: chapter_basic_applications/introduction.md
-    - 2.2. &nbsp; 数据结构化: chapter_basic_applications/structuring_data.md
-    - 2.3. &nbsp; 写邮件: chapter_basic_applications/writing_an_email.md
-    - 2.4. &nbsp; 博客: chapter_basic_applications/blogs.md
-    - 2.5. &nbsp; 学习工具: chapter_basic_applications/study_buddy.md
-    - 2.6. &nbsp; 代码辅助: chapter_basic_applications/coding_assistance.md
-    - 2.7. &nbsp; 找到合适Emoji: chapter_basic_applications/finding_emojis.md
-    - 2.8. &nbsp; 合同: chapter_basic_applications/contracts.md
-    - 2.9. &nbsp; 不同的书写风格: chapter_basic_applications/different_writing_styles.md
-    - 2.10. &nbsp; 总结文本: chapter_basic_applications/summarizing_text.md
-    - 2.11. &nbsp; 电子邮件的Zapier: chapter_basic_applications/zapier_for_emails.md
+    - basic_applications/index.md
+    - 2.1. &nbsp; 介绍: basic_applications/introduction.md
+    - 2.2. &nbsp; 数据结构化: basic_applications/table_generation.md
+    - 2.3. &nbsp; 写邮件: basic_applications/writing_emails.md
+    - 2.4. &nbsp; 博客: basic_applications/blog_generation.md
+    - 2.5. &nbsp; 学习工具: basic_applications/study_tool.md
+    - 2.6. &nbsp; 代码辅助: basic_applications/coding_assistance.md
+    - 2.7. &nbsp; 找到合适Emoji: basic_applications/emojis.md
+    - 2.8. &nbsp; 合同: basic_applications/contracts.md
+    - 2.9. &nbsp; 不同的书写风格: basic_applications/writing_in_diff_voices.md
+    - 2.10. &nbsp; 总结文本: basic_applications/summarize.md
+    - 2.11. &nbsp; 电子邮件的Zapier: basic_applications/zapier_for_emails.md
   - 3. &nbsp; &nbsp; 进阶:
     - chapter_intermediate/index.md
     - 3.1. &nbsp; 思维链提示过程: chapter_intermediate/chain_of_thought_prompting.md
