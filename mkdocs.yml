@@ -119,7 +119,6 @@ extra_css:
 # Page tree
 nav:
   - 1. &nbsp; &nbsp; 基础:
-    - basics/index.md
     - 1.1. &nbsp; 简介: basics/intro.md
     - 1.2. &nbsp; 提示过程: basics/prompting.md
     - 1.3. &nbsp; 给出指令: basics/instructions.md
@@ -133,7 +132,6 @@ nav:
     - 1.11. &nbsp; 理解人工智能思维: basics/world.md
     - 1.12. &nbsp; 开始你的旅程: basics/starting_your_journey.md
   - 2. &nbsp; &nbsp; 基础应用:
-    - basic_applications/index.md
     - 2.1. &nbsp; 介绍: basic_applications/introduction.md
     - 2.2. &nbsp; 数据结构化: basic_applications/table_generation.md
     - 2.3. &nbsp; 写邮件: basic_applications/writing_emails.md
@@ -146,74 +144,100 @@ nav:
     - 2.10. &nbsp; 总结文本: basic_applications/summarize.md
     - 2.11. &nbsp; 电子邮件的Zapier: basic_applications/zapier_for_emails.md
   - 3. &nbsp; &nbsp; 进阶:
-    - chapter_intermediate/index.md
-    - 3.1. &nbsp; 思维链提示过程: chapter_intermediate/chain_of_thought_prompting.md
-    - 3.2. &nbsp; 零样本思维链: chapter_intermediate/zero_shot_chain_of_thought.md
-    - 3.3. &nbsp; 自洽性: chapter_intermediate/self_consistency.md
-    - 3.4. &nbsp; 知识生成: chapter_intermediate/generated_knowledge.md
-    - 3.5. &nbsp; 最少到最多提示过程: chapter_intermediate/least_to_most_prompting.md
-    - 3.6. &nbsp; 提示的关键要素: chapter_intermediate/what_is_in_a_prompt.md
+    - 3.1. &nbsp; 思维链提示过程: intermediate/chain_of_thought.md
+    - 3.2. &nbsp; 零样本思维链: intermediate/zero_shot_cot.md
+    - 3.3. &nbsp; 自洽性: intermediate/self_consistency.md
+    - 3.4. &nbsp; 知识生成: intermediate/generated_knowledge.md
+    - 3.5. &nbsp; 最少到最多提示过程: intermediate/least_to_most.md
+    - 3.6. &nbsp; 提示的关键要素: intermediate/whats_in_a_prompt.md
   - 4. &nbsp; &nbsp; 提示的应用:
-    - chapter_applied_prompting/index.md
-    - 4.1. &nbsp; 介绍: chapter_applied_prompting/introduction.md
-    - 4.2. &nbsp; 多项选择题: chapter_applied_prompting/multiple_choice_questions.md
-    - 4.3. &nbsp; 解答讨论性问题: chapter_applied_prompting/solve_discussion_questions.md
-    - 4.4. &nbsp; 用GPT-3构建ChatGPT: chapter_applied_prompting/build_chatgpt_from_gpt3.md
-    - 4.5. &nbsp; 聊天机器人 + 知识库: chapter_applied_prompting/chatbot_knowledge_base.md
+    - 4.1. &nbsp; 介绍: applied_prompting/overview.md
+    - 4.2. &nbsp; 多项选择题: applied_prompting/mc_tutorial.md
+    - 4.3. &nbsp; 解答讨论性问题: applied_prompting/short_response.md
+    - 4.4. &nbsp; 用GPT-3构建ChatGPT: applied_prompting/build_chatgpt.md
+    - 4.5. &nbsp; 聊天机器人 + 知识库: applied_prompting/build_chatbot_from_kb.md
   - 5. &nbsp; &nbsp; 高级应用:
-    - chapter_advanced_applications/index.md
-    - 5.1. &nbsp; 概述: chapter_advanced_applications/introduction.md
-    - 5.2. &nbsp; LLMS使用工具: chapter_advanced_applications/llms_using_tools.md
-    - 5.3. &nbsp; 具有推理和行动能力的LLMS: chapter_advanced_applications/llms_that_reason_and_act.md
-    - 5.4. &nbsp; 代码推理: chapter_advanced_applications/code_as_reasoning.md
+    - 5.1. &nbsp; 概述: advanced_applications/overview.md
+    - 5.2. &nbsp; LLMS使用工具: advanced_applications/mrkl.md
+    - 5.3. &nbsp; 具有推理和行动能力的LLMS: advanced_applications/react.md
+    - 5.4. &nbsp; 代码推理: advanced_applications/pal.md
   - 6. &nbsp; &nbsp; 可靠性:
-    - chapter_reliability/index.md
-    - 6.1. &nbsp; 介绍: chapter_reliability/introduction.md
-    - 6.2. &nbsp; 提示去偏差: chapter_reliability/prompt_debiasing.md
-    - 6.3. &nbsp; 提示集成: chapter_reliability/prompt_ensembling.md
-    - 6.4. &nbsp; 大语言模型自我评估: chapter_reliability/llm_self_evaluation.md
-    - 6.5. &nbsp; 校准大语言模型: chapter_reliability/calibrating_llms.md
-    - 6.6. &nbsp; 数学: chapter_reliability/math.md
+    - 6.1. &nbsp; 介绍: reliability/intro.md
+    - 6.2. &nbsp; 提示去偏差: reliability/debiasing.md
+    - 6.3. &nbsp; 提示集成: reliability/ensembling.md
+    - 6.4. &nbsp; 大语言模型自我评估: reliability/lm_self_eval.md
+    - 6.5. &nbsp; 校准大语言模型: reliability/calibration.md
+    - 6.6. &nbsp; 数学: reliability/math.md
   - 7. &nbsp; &nbsp; 图片提示词:
-    - chapter_image_prompting/index.md
-    - 7.1. &nbsp; 介绍: chapter_image_prompting/introduction.md
-    - 7.2. &nbsp; 样式修饰符: chapter_image_prompting/style_modifiers.md
-    - 7.3. &nbsp; 质量增强器: chapter_image_prompting/quality_boosters.md
-    - 7.4. &nbsp; 重复: chapter_image_prompting/repetition.md
-    - 7.5. &nbsp; 加权: chapter_image_prompting/weighted_terms.md
-    - 7.6. &nbsp; 修复变形生成: chapter_image_prompting/fix_deformed_generations.md
-    - 7.7. &nbsp; Midjourney: chapter_image_prompting/midjourney.md
-    - 7.8. &nbsp; 资源: chapter_image_prompting/resources.md
+    - 7.1. &nbsp; 介绍: Images/intro.md
+    - 7.2. &nbsp; 样式修饰符: Images/style_modifiers.md
+    - 7.3. &nbsp; 质量增强器: Images/quality_boosters.md
+    - 7.4. &nbsp; 重复: Images/repetition.md
+    - 7.5. &nbsp; 加权: Images/weighted_terms.md
+    - 7.6. &nbsp; 修复变形生成: Images/fix_deformed_generations.md
+    - 7.7. &nbsp; Midjourney: Images/midjourney.md
+    - 7.8. &nbsp; 资源: Images/resources.md
   - 8. &nbsp; &nbsp; 破解提示: 
-    - chapter_prompt_hacking/index.md
-    - 8.1. &nbsp; 介绍: chapter_prompt_hacking/introduction.md
-    - 8.2. &nbsp; 提示注入: chapter_prompt_hacking/prompt_injection.md
-    - 8.3. &nbsp; 提示泄露: chapter_prompt_hacking/prompt_leaking.md
-    - 8.4. &nbsp; 越狱: chapter_prompt_hacking/jailbreaking.md
-    - 8.5. &nbsp; 防御措施: chapter_prompt_hacking/defensive_measures.md
-    - 8.6. &nbsp; 进攻措施: chapter_prompt_hacking/offensive_measures.md
+    - 8.1. &nbsp; 介绍: prompt_hacking/intro.md
+    - 8.2. &nbsp; 提示注入: prompt_hacking/injection.md
+    - 8.3. &nbsp; 提示泄露: prompt_hacking/leaking.md
+    - 8.4. &nbsp; 越狱: prompt_hacking/jailbreaking.md
+    - 8.5. &nbsp; 防御措施:
+      - 8.5.1. &nbsp; Overview: prompt_hacking/defensive_measures/overview.md
+      - 8.5.2. &nbsp; Filtering: prompt_hacking/defensive_measures/filtering.md
+      - 8.5.3. &nbsp; Intruction Defense: prompt_hacking/defensive_measures/instruction.md
+      - 8.5.4. &nbsp; Post-Prompting: prompt_hacking/defensive_measures/post_prompting.md
+      - 8.5.5. &nbsp; Random Sequence Enclosure: prompt_hacking/defensive_measures/random_sequence.md
+      - 8.5.6. &nbsp; Sandwich Defense: prompt_hacking/defensive_measures/sandwich_defense.md
+      - 8.5.7. &nbsp; XML Tagging: prompt_hacking/defensive_measures/xml_tagging.md
+      - 8.5.8. &nbsp; Separate LLM Evaluation: prompt_hacking/defensive_measures/llm_eval.md
+      - 8.5.9. &nbsp; Other Approaches: prompt_hacking/defensive_measures/other.md
+    - 8.6. &nbsp; 进攻措施: 
+      - 8.6.1. &nbsp; Overview: prompt_hacking/offensive_measures/overview.md
+      - 8.6.2. &nbsp; Obfuscation/Token Smuggling: prompt_hacking/offensive_measures/obfuscation.md
+      - 8.6.3. &nbsp; Payload Splitting: prompt_hacking/offensive_measures/payload_splitting.md
+      - 8.6.4. &nbsp; Defined Dictionary Attack: prompt_hacking/offensive_measures/defined_dictionary.md
+      - 8.6.5. &nbsp; Virtualization: prompt_hacking/offensive_measures/virtualization.md
+      - 8.6.6. &nbsp; Indirect Injection: prompt_hacking/offensive_measures/indirect_injection.md
+      - 8.6.7. &nbsp; Recursive Injection: prompt_hacking/offensive_measures/recursive_attack.md
+      - 8.6.8. &nbsp; Code Injection: prompt_hacking/offensive_measures/code_injection.md
   - 9. &nbsp; &nbsp; 工具:
-    - chapter_tooling/index.md
-    - 9.1. &nbsp; 提示工程工具: chapter_tooling/prompt_engineering_tools.md
-    - 9.2. &nbsp; 提示工程集成环境: chapter_tooling/prompt_engineering_ides.md
+    - 9.1. &nbsp; 提示工程工具: tooling/tools.md
+    - 9.2. &nbsp; 提示工程集成环境: 
+      - 9.2.1. &nbsp; Overview: tooling/IDEs/intro.md
+      - 9.2.2. &nbsp; GPT-3 Playground: tooling/IDEs/playground.md
+      - 9.2.3. &nbsp; Dust: tooling/IDEs/dust.md
+      - 9.2.4. &nbsp; Soaked: tooling/IDEs/soaked.md
+      - 9.2.5. &nbsp; Dyno: tooling/IDEs/dyno.md
+      - 9.2.6. &nbsp; Everyprompt: tooling/IDEs/everyprompt.md
+      - 9.2.7. &nbsp; Prompt IDE: tooling/IDEs/promptide.md
+      - 9.2.8. &nbsp; PromptSource: tooling/IDEs/promptsource.md
+      - 9.2.9. &nbsp; PromptChainer: tooling/IDEs/promptchainer.md
+      - 9.2.10. &nbsp; Prompts.ai: tooling/IDEs/promptsai.md
+      - 9.2.11. &nbsp; Snorkel: tooling/IDEs/snorkel.md
+      - 9.2.12. &nbsp; Multi: tooling/IDEs/multi.md
+      - 9.2.13. &nbsp; Human Loop: tooling/IDEs/humanloop.md
+      - 9.2.14. &nbsp; Spellbook: tooling/IDEs/spellbook.md
+      - 9.2.15. &nbsp; Kolla Prompt: tooling/IDEs/kollaprompt.md
+      - 9.2.16. &nbsp; Lang Chain: tooling/IDEs/langchain.md
+      - 9.2.17. &nbsp; OpenPrompt: tooling/IDEs/openprompt.md
+      - 9.2.18. &nbsp; OpenAI DALLE IDE: tooling/IDEs/DALLE.md
+      - 9.2.19. &nbsp; Dream Studio: tooling/IDEs/dream_studio.md
+      - 9.2.20. &nbsp; Patience: tooling/IDEs/patience.md
+      - 9.2.21. &nbsp; Promptmetheus: tooling/IDEs/promptmetheus.md
+      - 9.2.22. &nbsp; PromptSandbox.io: tooling/IDEs/promptsandbox.md
+      - 9.2.23. &nbsp; The Forge AI: tooling/IDEs/theforgeai.md
+      - 9.2.24. &nbsp; Conclusion: tooling/IDEs/conclusion.md
   - 10. &nbsp; &nbsp; 提示微调:
-    - chapter_prompt_tuning/index.md
-    - 10.1. &nbsp; 软提示: chapter_prompt_tuning/soft_prompts.md
-    - 10.2. &nbsp; 可解释的软提示: chapter_prompt_tuning/interpretable_soft_prompts.md
+    - 10.1. &nbsp; 软提示: trainable/soft_prompting.md
+    - 10.2. &nbsp; 可解释的软提示: trainable/discretized.md
   - 11. &nbsp; &nbsp; 杂项:
-    - chapter_miscellaneous/index.md
-    - 11.1. &nbsp; 检测AI生成的文本: chapter_miscellaneous/detecting_ai_generated_text.md
-    - 11.2. &nbsp; 检测的欺骗: chapter_miscellaneous/detection_trickery.md
-    - 11.3. &nbsp; 音乐生成: chapter_miscellaneous/music_generation.md
-  - 12. &nbsp; &nbsp; 词汇参考:
-    - chapter_vocabulary_reference/index.md
-  - 13. &nbsp; &nbsp; 参考文献:
-    - chapter_bibliography/index.md
-  - 14. &nbsp; &nbsp; 提示产品:
-    - chapter_prompted_products/index.md
-  - 15. &nbsp; &nbsp; 额外资源:
-    - chapter_additional_resources/index.md
-  - 16. &nbsp; &nbsp; 一些应用:
-    - chapter_credits/index.md
-  - 17. &nbsp; &nbsp; 热门主题:
-    - chapter_hot_topics/index.md
+    - 11.1. &nbsp; 检测AI生成的文本: miscl/detect.md
+    - 11.2. &nbsp; 检测的欺骗: miscl/trickery.md
+    - 11.3. &nbsp; 音乐生成: miscl/music.md
+  - 12. &nbsp; &nbsp; 词汇参考: vocabulary.md
+  - 13. &nbsp; &nbsp; 参考文献: bibliography.md
+  - 14. &nbsp; &nbsp; 提示产品: products.md
+  - 15. &nbsp; &nbsp; 额外资源: additional.md
+  - 16. &nbsp; &nbsp; 一些应用: credits.md
+  - 17. &nbsp; &nbsp; 热门主题: hot_topics.md
