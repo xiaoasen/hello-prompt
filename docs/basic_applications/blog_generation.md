@@ -1,5 +1,5 @@
 ---
-sidebar_position: 30
+comments: true
 ---
 
 # 🟢 博客

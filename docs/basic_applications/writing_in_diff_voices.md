@@ -1,5 +1,5 @@
 ---
-sidebar_position: 60
+comments: true
 ---
 
 # 🟢 不同的书写风格
@@ -9,43 +9,27 @@ sidebar_position: 60
 假设你想要一段关于友谊的重要性的段落。
 像“给我写一段关于友谊的重要性”这样宽泛的提示将导致 ChatGPT 生成宽泛、平平无奇的内容。
 
-import friendship from '@site/docs/assets/basic_applications/Generic_Friendship.png';
-import friendship_informal from '@site/docs/assets/basic_applications/Friendship_Informal.png';
-import friendship_mark from '@site/docs/assets/basic_applications/Friendship_Mark_Twain.png';
-import friendship_chris from '@site/docs/assets/basic_applications/Friendship_Chris_Rock.png';
-import friendship_millennial from '@site/docs/assets/basic_applications/Friendship_Millennial.png';
 
-
-<div style={{textAlign: 'center'}}>
-  <img src={friendship} style={{width: "750px"}} />
-</div>
+![Generic_Friendship](../assets/basic_applications/Generic_Friendship.png)
 
 很像废话吧。太平淡了。但是当您添加一些规则时，结果将会发生变化，例如“请以非正式、对话的方式写作”。 ChatGPT 将给出这样的回复：
 
-<div style={{textAlign: 'center'}}>
-  <img src={friendship_informal} style={{width: "750px"}} />
-</div>
+![Friendship_Informal](../assets/basic_applications/Friendship_Informal.png)
 
 好了一点是吧。
 
 如果你觉得有点花哨，你可以要求 ChatGPT 以文学巨匠之一的风格写作，比如马克吐温：
 
-<div style={{textAlign: 'center'}}>
-  <img src={friendship_mark} style={{width: "750px"}} />
-</div>
+![Friendship_Mark_Twain](../assets/basic_applications/Friendship_Mark_Twain.png)
 
 现在开始生动美妙起来了。
 也不一定是著名作家。您也可以使用知名人士，例如 Chris Rock。
 
-<div style={{textAlign: 'center'}}>
-  <img src={friendship_chris} style={{width: "750px"}} />
-</div>
+![Friendship_Chris_Rock](../assets/basic_applications/Friendship_Chris_Rock.png)
 
 或者那些“千禧一代”呢？
 
-<div style={{textAlign: 'center'}}>
-  <img src={friendship_millennial} style={{width: "750px"}} />
-</div>
+![Friendship_Millennial](../assets/basic_applications/Friendship_Millennial.png)
 
 ## 模仿你自己的写作风格
 

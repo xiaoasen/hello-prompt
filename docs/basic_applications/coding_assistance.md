@@ -1,5 +1,5 @@
 ---
-sidebar_position: 40
+comments: true
 ---
 
 # 🟡 代码辅助
@@ -198,7 +198,7 @@ print("Social Security tax is: $", round(ss_tax, 2))
 
 ## 处理多个文件和重构代码库
 
-如果你想让ChatGPT评估**多个**文件怎么办？只需提供每个文件的文件名并粘贴相应的代码即可:
+如果你想让ChatGPT评估 **多个** 文件怎么办？只需提供每个文件的文件名并粘贴相应的代码即可:
 
 ```text
 My Python script uses two files, listed below, in different directories. Please display the output from executing conversation.py:
@@ -359,4 +359,4 @@ drwxr-xr-x  2 user  group   4096 Feb 28 09:12 directory1
 
 ---
 
-本文内容由**Prompt Yes!**贡献, 这是一个提供 [提示词工程训练](https://promptyes.com/)的网站。
+本文内容由 **Prompt Yes!** 贡献, 这是一个提供 [提示词工程训练](https://promptyes.com/)的网站。

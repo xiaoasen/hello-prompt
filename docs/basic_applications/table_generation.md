@@ -1,5 +1,5 @@
 ---
-sidebar_position: 0
+comments: true
 ---
 
 # 🟢 数据结构化

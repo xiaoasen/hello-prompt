@@ -1,5 +1,5 @@
 ---
-sidebar_position: 0
+comments: true
 ---
 
 # 🟢 介绍
@@ -9,6 +9,6 @@ sidebar_position: 0
 本节文章中提供的示例应该能够向你展示适合应用提示工程的场景。
 
 
-:::note
-在后面的示例中，我们使用了 ChatGPT 和 GPT-3。一般来说使用哪个都是可以的。
-:::
+!!! note
+        
+        在后面的示例中，我们使用了 ChatGPT 和 GPT-3。一般来说使用哪个都是可以的。

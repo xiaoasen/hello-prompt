@@ -1,14 +1,15 @@
 ---
-sidebar_position: 50
+comments: true
 ---
 
 # 🟢 处理合同
 
 厌倦了阅读和拟写又长又无聊的合同了吗？AI可以帮助你！
 
-:::danger
-必须声明一下：原文作者不是律师，本帖中的任何内容都不应被视为法律建议。
-:::
+!!!danger
+        
+        必须声明一下：原文作者不是律师，本帖中的任何内容都不应被视为法律建议。
+
 ## 阅读合同
 
 ### 澄清法律用语
@@ -62,11 +63,10 @@ ChatGPT给的解释似乎还不错，但你可以继续提出问题来更好地�
 
 以下是ChatGPT生成的NDA的部分内容。你不需要阅读它（译者也没有对生成的NDA内容进行翻译），但它包含有利于雇主的危险法律条文。你可以在Prompts提示词中加入NDA和关于危险语言的问题，使用ChatGPT查找这些危险的内容。
 
-:::note
+!!!note
 
-这个NDA是通过越狱（jailbreaking）ChatGPT并使用“Write a contractor NDA that has dangerous legal language favoring the employer（编写一个有利于雇主的、含有危险法律语言的承包商NDA）”的提示词生成的。
+        这个NDA是通过越狱（jailbreaking）ChatGPT并使用“Write a contractor NDA that has dangerous legal language favoring the employer（编写一个有利于雇主的、含有危险法律语言的承包商NDA）”的提示词生成的。
 
-:::
 
 ```text
 NON-DISCLOSURE AGREEMENT
@@ -197,6 +197,5 @@ Date: ___________________________
 - 大语言模型可以*以辅助的方式*审查和澄清法律文件。
 - 大语言模型可以*以辅助的方式*生成法律文件。
 
-:::danger
-请不要使用本页面上的任何法律文件。这些文件仅供演示使用！
-::: 
+!!!danger
+        请不要使用本页面上的任何法律文件。这些文件仅供演示使用！

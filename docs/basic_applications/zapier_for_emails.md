@@ -1,15 +1,9 @@
 ---
-sidebar_position: 600
+comments: true
 ---
 
 # 🟢 电子邮件的 Zapier
 
-import Basic from '@site/docs/assets/Zapiermail/Basic.png';
-import Diagram from '@site/docs/assets/Zapiermail/Diagram.png';
-import Step1 from '@site/docs/assets/Zapiermail/Step1.png';
-import Step2 from '@site/docs/assets/Zapiermail/Step2.png';
-import Step3 from '@site/docs/assets/Zapiermail/Step3.png';
-import Step4 from '@site/docs/assets/Zapiermail/Step4.png';
 import Zap from '@site/docs/assets/Zapiermail/Zap.png';
 
 ## 介绍
@@ -20,9 +14,8 @@ import Zap from '@site/docs/assets/Zapiermail/Zap.png';
 
 在本文中，我们将向您展示如何在 Zapier 中设置一个简单的系统，在其中**汇总和存储电子邮件**。将要与某人会面了？快速查看您与此人往来的电子邮件摘要。这些设置大约需要 20 分钟。
 
-:::caution
-了解 Zapier 对本文很有帮助。如果不了解，可以查看这篇 [文章](https://zapier.com/learn/)。
-:::
+!!!caution
+    了解 Zapier 对本文很有帮助。如果不了解，可以查看这篇 [文章](https://zapier.com/learn/)。
 
 
 ## 总体思路
@@ -35,9 +28,7 @@ import Zap from '@site/docs/assets/Zapiermail/Zap.png';
 2. 发送到 GPT-3 进行总结
 3. 将输出存储在数据库中
 
-<div style={{textAlign: 'left'}}>
-  <img src={Diagram} style={{width: "500px"}} />
-</div>
+![Diagram](../assets/Zapiermail/Diagram.png)
 
 ## 设置 Zapier
 
@@ -47,18 +38,14 @@ import Zap from '@site/docs/assets/Zapiermail/Zap.png';
   <summary>展开以获取更多 Zapier 设置步骤的细节</summary>
   <div>
   这就是 Zapier 步骤图的样子。
-    <div><div style={{textAlign: 'left'}}>
-  <img src={Zap} style={{width: "500px"}} />
-</div></div>
+    ![Zap](../assets/Zapiermail/Zap.png)
     <br/>
     <details>
       <summary>
         步骤 1: 收到电子邮件并触发 Zapier
       </summary>
       <div>
-        <div style={{textAlign: 'left'}}>
-    <img src={Step1} style={{width: "500px"}} />
-        </div>
+        ![Step1](../assets/Zapiermail/Step1.png)
       </div>
     </details>
     <details>
@@ -66,9 +53,7 @@ import Zap from '@site/docs/assets/Zapiermail/Zap.png';
        步骤 2: 格式化电子邮件的内容 
       </summary>
       <div>
-        <div style={{textAlign: 'left'}}>
-  <img src={Step2} style={{width: "500px"}} />
-</div>
+        ![Step2](../assets/Zapiermail/Step2.png)
       </div>
     </details>
     <details>
@@ -77,9 +62,7 @@ import Zap from '@site/docs/assets/Zapiermail/Zap.png';
         <br/>
       </summary>
       <div>
-        <div style={{textAlign: 'left'}}>
-  <img src={Step3} style={{width: "500px"}} />
-</div>
+        ![Step3](../assets/Zapiermail/Step3.png)
       </div>
     </details>
     <details>
@@ -87,9 +70,7 @@ import Zap from '@site/docs/assets/Zapiermail/Zap.png';
         步骤 4: 添加到数据库中
       </summary>
       <div>
-        <div style={{textAlign: 'left'}}>
-  <img src={Step4} style={{width: "500px"}} />
-</div>
+        ![Step4](../assets/Zapiermail/Step4.png)
       </div>
     </details>
   </div>

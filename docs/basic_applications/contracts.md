@@ -1,14 +1,13 @@
 ---
-sidebar_position: 50
+comments: true
 ---
 
 # 🟢 合同
 
 对阅读和写作冗长乏味的合同感到厌倦了吗？那么人工智能将可以帮助到你！
 
-:::warning
-声明：我不是律师，本帖中的任何内容都不应被视为法律建议。
-:::
+!!! warning
+        声明：我不是律师，本帖中的任何内容都不应被视为法律建议。
 ## 阅读合同
 
 ### 解释法律用语
@@ -50,11 +49,9 @@ NOW, THEREFORE, in consideration of the mutual promises and covenants contained 
 
 这是 ChatGPT 制作的保密协议的一部分。你不需要读它，但它包含了危险的法律用语，有利于雇主但可能不利于你。你可以使用 ChatGPT 查找这种语句，方法是使用以下提示符，该提示符底部包含 NDA 和关于危险语言的问题。
 
-:::note
+!!!note
 
-通过 jailbreaking ChatGPT 来创建一份 NDA，并提示其“编写一个承包商保密协议，其中通过一些危险用语来达到有利于雇主的目的”。
-
-:::
+        通过 jailbreaking ChatGPT 来创建一份 NDA，并提示其“编写一个承包商保密协议，其中通过一些危险用语来达到有利于雇主的目的”。
 
 ```text
 保密协议
@@ -183,8 +180,7 @@ NOW, THEREFORE, in consideration of the mutual promises and covenants contained 
 - LLMs 可用于*以辅助身份*审查和澄清法律文件。
 - LLMs 可用于*以辅助身份*生成法律文件。
 
-:::danger
-请勿使用该页面上的任何法律内容。它们仅用于演示目的。
-:::
+!!!danger
+        请勿使用该页面上的任何法律内容。它们仅用于演示目的。
 
 By [gezilinll](https://github.com/gezilinll).
