@@ -1,14 +1,10 @@
 ---
-sidebar_position: 7
+comments: true
 ---
 
 # 🟢 规范化提示
 
-import FormalPrompt from '@site/docs/assets/formal_prompt.svg';
-
-<div style={{textAlign: 'center'}}>
-  <FormalPrompt style={{width:"800px",height:"300px",verticalAlign:"top"}}/>
-</div>
+![formal_prompt](../assets/formal_prompt.svg)
 
 我们现在已经涵盖了多种类型的提示，以及如何组合它们的方法。本篇教程将为您提供术语来解释不同类型的提示。虽然已经有方法来形式化提示工程中的术语(@white2023prompt)，但这个领域正在不断变化，因此我们将为您提供更充足的信息以便开始。
 

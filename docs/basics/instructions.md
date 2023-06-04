@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+comments: true
 ---
 # 🟢 给出指令
 

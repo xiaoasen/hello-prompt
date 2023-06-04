@@ -1,7 +1,5 @@
 ---
-sidebar_position: 10
-locale: en-us
-style: chicago
+comments: true
 ---
 
 # 🟢 更多关于提示过程

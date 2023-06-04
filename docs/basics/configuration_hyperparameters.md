@@ -1,24 +1,20 @@
 ---
-sidebar_position: 100
+comments: true
 ---
 
 # 🟢 LLM Settings
 
 
-import Temperature from '/docs/assets/temperature.svg';
-
-<div style={{textAlign: 'center'}}>
-  <Temperature style={{width:"500px",height:"300px",verticalAlign:"top"}}/>
-</div>
+![temperature](../assets/temperature.svg)
 
 
 # 导论
 
 LLMs 的输出受*超参数配置（configuration hyperparameters）*影响，它能控制模型的多个方面，例如有多「随机」。调整超参数能生成更具活泼、多样及有趣的输出。本章将讨论两个重要的超参数以及它们如何影响 LLMs。
 
-:::note
-[给研究者] 这些配置不同于学习率（learning rate）、层数（number of layers）及隐藏大小（hidden size）等通常的超参数。
-:::
+!!! 备注
+
+    [给研究者] 这些配置不同于学习率（learning rate）、层数（number of layers）及隐藏大小（hidden size）等通常的超参数。
 
 ## 热度（Temperature）
 
@@ -38,16 +34,16 @@ Top p，即核心采样（nucleus sampling），是另一个控制语言模型�
 
 对于文本生成你可能希望使用较高的热度或 top p。然而，对于精确性重视型场景，如翻译或问答时，则应用较低的热度或 top p 以提高精确性和事实正确性。
 
-:::note
-有时对于需要更多随机性的精确性重视型场景，搭配[特殊提示技巧](https://learnprompting.org/zh-Hans/docs/intermediate/self_consistency)可能有所帮助。
-:::
+!!! 备注
+
+    有时对于需要更多随机性的精确性重视型场景，搭配[特殊提示技巧](https://learnprompting.org/zh-Hans/docs/intermediate/self_consistency)可能有所帮助。
 
 ## 结论
 
 总之，在使用语言模型时，热度、top p 和其他模型超参数配置是需要考虑的关键因素。通过理解这些超参数与模型输出之间的关系，使用者可以针对特定场景和应用优化他们的提示。
 
-:::warning
-有些模型，如 ChatGPT，**不允许**调整这些超参数配置。
-:::
+!!! 警告
+  
+    有些模型，如 ChatGPT，**不允许** 调整这些超参数配置。
 
 By jackdickens382

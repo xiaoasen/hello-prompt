@@ -1,17 +1,10 @@
 ---
-sidebar_position: 6
-locale: zh-Hans
-style: chicago
+comments: true
 ---
 
 # 🟢 组合提示
 
-import CombinedPrompt from '@site/docs/assets/combined_prompt.svg';
-
-
-<div style={{textAlign: 'center'}}>
-  <CombinedPrompt style={{width:"500px",height:"300px",verticalAlign:"top"}}/>
-</div>
+![combined_prompt](../assets/combined_prompt.svg)
 
 正如我们在前面的教程中所看到的，面向模型的提示具有不同的格式和其复杂性。它们可以包括上下文、指令式的提示词和多个输入-输出的示例。然而，到目前为止，我们只研究了独立的提示类别。将这些不同的技巧组合起来可以产生更强大的提示。
 

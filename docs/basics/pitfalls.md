@@ -1,24 +1,20 @@
 ---
-sidebar_position: 90
+comments: true
 ---
 
 # 🟢 大语言模型（LLMs）中的隐患
 
-import Pitfalls from '/docs/assets/pitfalls.svg';
-
-<div style={{textAlign: 'center'}}>
-  <Pitfalls style={{width:"500px",height:"200px",verticalAlign:"top"}}/>
-</div>
+![pitfalls](../assets/pitfalls.svg)
 
 LLMs 十分强大但也並非完美，在使用的时候需注意一些隐患。
 
 ## 引用来源
 
-LLMs 没有连接到网络且无法精确得知他们的信息来源，故大多数情况下**不能准确给出引用来源**。他们经常会产生一些看起来不错，但完全不准确的资料。
+LLMs 没有连接到网络且无法精确得知他们的信息来源，故大多数情况下 **不能准确给出引用来源**。他们经常会产生一些看起来不错，但完全不准确的资料。
 
-:::note
-搜索特化型（能够搜索网络及其他来源）LLMs 能解决这个问题。
-:::
+!!! 备注
+
+    搜索特化型（能够搜索网络及其他来源）LLMs 能解决这个问题。
 
 ## 偏见
 
@@ -32,9 +28,9 @@ LLMs 时常产生具有刻板印象的回应。即使有安全防护措施，他
 
 LLMs 不擅长逻辑计算。他们解决简单的数学问题也存在困难，对于更复杂的数学问题更是无从下手。
 
-:::note
-[工具增强型 LLMs](https://learnprompting.org/zh-Hans/docs/advanced_applications/mrkl) 在一定程度上能改善这个问题。
-:::
+!!! 备注
+    
+    [工具增强型 LLMs](https://learnprompting.org/zh-Hans/docs/advanced_applications/mrkl) 在一定程度上能改善这个问题。
 
 ## 提示词攻击
 

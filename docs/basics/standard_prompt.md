@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+comments: true
 ---
 
 # 🟢 “标准”提示

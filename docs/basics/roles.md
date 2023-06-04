@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+comments: true
 ---
 
 # 🟢 角色提示

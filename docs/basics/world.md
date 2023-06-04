@@ -1,15 +1,11 @@
 ---
-sidebar_position: 200
+comments: true
 ---
 # 🟢 理解人工智能思维
 
 你好，读者，恭喜你完成了基础介绍章节。你在这个非常令人兴奋的领域有了一个很好的开端。在继续阅读本课程的其余部分之前，有几件简单的事情你应该知道，关于不同的人工智能及其工作原理。
 
-import music_image from '@site/docs/assets/music+image.png';
-
-<div style={{textAlign: 'center'}}>
-  <img src={music_image} style={{width: "850px"}} />
-</div>
+![music+image](../assets/music+image.png)
 
 <div style={{textAlign: 'center'}}>
   从图像生成音频
@@ -26,7 +22,7 @@ import music_image from '@site/docs/assets/music+image.png';
 
 ## 这些人工智能是如何工作的呢？
 
-本节介绍了流行的生成式**文本**人工智能的方面。这些人工智能的大脑由数十亿个人工神经元组成。这些神经元的结构被称为 transformer 架构，它是一种相当复杂的神经网络类型。你需要了解的是：
+本节介绍了流行的生成式 **文本**人工智能的方面。这些人工智能的大脑由数十亿个人工神经元组成。这些神经元的结构被称为 transformer 架构，它是一种相当复杂的神经网络类型。你需要了解的是：
 
 1. 这些人工智能只是数学函数。它们更像是f(成千上万的变量) = 成千上万种可能的输出，而不是 $f(x) = x^2$ 这样的简单函数。
 2. 这些人工智能通过将句子分解成称为标记（tokens）的单词/子单词（例如，AI 可能将 “I don't like” 作为 “"I", "don", "'t" "like"”）（译注：由于中文 token 化的表现形式和英文并不完全相同，这里保持英文示例，感兴趣的同学可以在 OpenAI 提供的[在线工具](https://platform.openai.com/tokenizer)自行体验）来理解句子。然后，每个标记都被转换为一组数字，以便人工智能进行处理。

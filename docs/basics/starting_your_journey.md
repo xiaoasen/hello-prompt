@@ -1,16 +1,12 @@
 ---
-sidebar_position: 1000
+comments: true
 ---
 
 # 🟢 开始你的旅程
 
 
-import Steps from '/docs/assets/steps.svg';
+![steps](../assets/steps.svg)
 
-
-<div style={{textAlign: 'center'}}>
-  <Steps style={{width:"500px",height:"200px",verticalAlign:"top"}}/>
-</div>
 现在你已经了解了提示工程（prompt engineering）的基础知识，你已经可以开始自己尝试提示工程了。本课程的其余部分将包含更多的技术和资源，但学习 PE 的最好方法是开始用自己的提示（prompts）进行实验。本节将告诉你如何开始解决一个任意的提示工程问题。
 
 假设你想要这样一个提示（prompt），它通过 ChatGPT 生成一个沉浸式的互动故事。
@@ -32,11 +28,7 @@ import Steps from '/docs/assets/steps.svg';
 
 现在，我们将把提示放入 ChatGPT，看看会发生什么。
 
-import CSharp from '/docs/assets/csharp.png';
-
-<div style={{textAlign: 'center'}}>
-  <img src={CSharp} style={{width: "750px"}} />
-</div>
+![csharp](../assets/csharp.png)
 
 我们可以看到，它生成了一个故事，但它是在 csharp（一种编程语言）的代码块中写的。也许我们不想要这样的形式，所以我们将把提示修改成：
 
@@ -78,9 +70,9 @@ As you wake up, you feel the warmth of the sun filtering through the window and 
 
 做 *你* 想做的提示工程。我（本课程的维护者）总是从头开始写我的提示语。如何写出最好的提示语没有黄金标准；试验和错误是最好的学习方法。祝你学习愉快，祝你本课程的其余部分学习顺利！
 
-:::note
-本文的建议适用于所有的提示工程问题，而不仅仅是编写交互式故事！
-:::
+!!! note
+    
+    本文的建议适用于所有的提示工程问题，而不仅仅是编写交互式故事！
 
 
 ## 备注

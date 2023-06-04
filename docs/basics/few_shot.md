@@ -1,17 +1,13 @@
 ---
-sidebar_position: 4
+comments: true
 ---
 
 # 🟢 多范例提示
 
-import FewShot from '@site/docs/assets/few_shot.svg';
-
-<div style={{textAlign: 'center'}}>
-  <FewShot style={{width:"800px",height:"300px",verticalAlign:"top"}}/>
-</div>
+![few_shot](../assets/few_shot.svg)
 
 
-另一个提示策略是*多范例提示（few shot prompting）*, 这种策略将为模型展示一些例子（shots），从而更形象地描述你的需求。
+另一个提示策略是 *多范例提示（few shot prompting）*, 这种策略将为模型展示一些例子（shots），从而更形象地描述你的需求。
 
 在上图的例子中，我们尝试对用户反馈进行正面（positive）或反面（negative）的分类。我们向模型展示了 3 个例子，然后我们输入一个不在例子里面的反馈（`It doesnt work!:`）。模型发现头三个例子都被分类到 `positive` 或者 `negative` ，进而通过这些信息将我们最后输入的反馈分类到了 `negative`。
 
@@ -23,9 +19,9 @@ import FewShot from '@site/docs/assets/few_shot.svg';
 
 <br/>
 
-:::note
-每一个输入-输出对被称为一个`范例`
-:::
+!!! 备注
+    
+    每一个输入-输出对被称为一个`范例`
 
 ## 结构化的延伸
 
@@ -37,9 +33,9 @@ import FewShot from '@site/docs/assets/few_shot.svg';
 
 通过向模型展示正确的输出格式示例，它就能够为新的文章生成正确的输出结果。
 
-:::note
-尽管我们可以通过使用指令提示符的方式来生成相同的输出，但多范例提示在输出结果的一致性上会更好。
-:::
+!!! 备注
+
+    尽管我们可以通过使用指令提示符的方式来生成相同的输出，但多范例提示在输出结果的一致性上会更好。
 
 ## 不同类型的范例提示
 
