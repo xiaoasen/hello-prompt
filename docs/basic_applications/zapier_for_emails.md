@@ -34,47 +34,21 @@ import Zap from '@site/docs/assets/Zapiermail/Zap.png';
 
 首先确保拥有 [Zapier 帐户](https://zapier.com/sign-up)（您可以获得一个免费帐户）。设置它是比较简单的。创建帐户后，点击展开下面内容可以查看我们需要创建的每个 Zapier 操作的完整描述。
 
-<details>
-  <summary>展开以获取更多 Zapier 设置步骤的细节</summary>
-  <div>
-  这就是 Zapier 步骤图的样子。
+=== "概览"
     ![Zap](../assets/Zapiermail/Zap.png)
-    <br/>
-    <details>
-      <summary>
-        步骤 1: 收到电子邮件并触发 Zapier
-      </summary>
-      <div>
-        ![Step1](../assets/Zapiermail/Step1.png)
-      </div>
-    </details>
-    <details>
-      <summary>
-       步骤 2: 格式化电子邮件的内容 
-      </summary>
-      <div>
-        ![Step2](../assets/Zapiermail/Step2.png)
-      </div>
-    </details>
-    <details>
-      <summary>
-        步骤 3: 和提示词一起发送到 GPT-3
-        <br/>
-      </summary>
-      <div>
-        ![Step3](../assets/Zapiermail/Step3.png)
-      </div>
-    </details>
-    <details>
-      <summary>
-        步骤 4: 添加到数据库中
-      </summary>
-      <div>
-        ![Step4](../assets/Zapiermail/Step4.png)
-      </div>
-    </details>
-  </div>
-</details>
+
+=== "Step1"
+    ![Step1](../assets/Zapiermail/Step1.png)
+
+=== "Step2"
+    ![Step2](../assets/Zapiermail/Step2.png)
+
+=== "Step3"
+    ![Step3](../assets/Zapiermail/Step3.png)
+
+=== "Step4"
+    ![Step4](../assets/Zapiermail/Step4.png)
+
 这是 zapier 中的一个设置，它允许您进行非常基本的总结，如图所示。它有它的局限性，但它确实可以完成任务并且建立一个有用的数据库。
 
 
