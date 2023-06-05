@@ -24,11 +24,13 @@ comments: true
 
 #### 错误示例
 
+<iframe src="https://embed.learnprompting.org/embed?config=eyJ0b3BQIjoxLCJ0ZW1wZXJhdHVyZSI6MC43LCJtYXhUb2tlbnMiOjI1Niwib3V0cHV0IjoiSm9obiBoYXMgOCBwZWFycy4iLCJwcm9tcHQiOiJJZiBKb2huIGhhcyA1IHBlYXJzLCB0aGVuIGVhdHMgMiwgYW5kIGJ1eXMgNSBtb3JlLCB0aGVuIGdpdmVzIDMgdG8gaGlzIGZyaWVuZCwgaG93IG1hbnkgcGVhcnMgZG9lcyBoZSBoYXZlPyIsIm1vZGVsIjoidGV4dC1kYXZpbmNpLTAwMyJ9" seamless width="100%" height="500" name="SELFHTML_in_a_box"></iframe>
+
 <div trydyno-embed="" openai-model="text-davinci-003" initial-prompt="如果 John 有 5 个梨子，吃了 2 个，又买了 5 个，然后把 3 个给了他的朋友，他还剩下多少个梨子？" initial-response="John 有 8 个梨子。" max-tokens="256" box-rows="3" model-temp="0.7" top-p="1"></div>
 
 #### 正确示例
 
-<div trydyno-embed="" openai-model="text-davinci-003" initial-prompt="如果 John 有 5 个梨子，吃了 2 个，又买了 5 个，然后把 3 个给了他的朋友，他还剩下多少个梨子？\n\n让我们一步一步地思考。" initial-response="John 起初有 5 个梨子。他吃了 2 个梨子，还剩下 3 个梨子。他又买了 5 个梨子，一共有 8 个梨子。他把 3 个梨子给了他的朋友，他现在只剩下 5 个梨子。" max-tokens="256" box-rows="5" model-temp="0.7" top-p="1"></div>
+<iframe src="https://embed.learnprompting.org/embed?config=eyJ0b3BQIjoxLCJ0ZW1wZXJhdHVyZSI6MC43LCJtYXhUb2tlbnMiOjI1Niwib3V0cHV0IjoiSm9obiBzdGFydHMgd2l0aCA1IHBlYXJzLiBIZSBlYXRzIDIgcGVhcnMsIGxlYXZpbmcgaGltIHdpdGggMyBwZWFycy4gSGUgYnV5cyA1IG1vcmUgcGVhcnMsIGdpdmluZyBoaW0gYSB0b3RhbCBvZiA4IHBlYXJzLiBIZSBnaXZlcyAzIHBlYXJzIHRvIGhpcyBmcmllbmQsIGxlYXZpbmcgaGltIHdpdGggb25seSA1IHBlYXJzLiIsInByb21wdCI6IklmIEpvaG4gaGFzIDUgcGVhcnMsIHRoZW4gZWF0cyAyLCBhbmQgYnV5cyA1IG1vcmUsIHRoZW4gZ2l2ZXMgMyB0byBoaXMgZnJpZW5kLCBob3cgbWFueSBwZWFycyBkb2VzIGhlIGhhdmU%2FXG5cbkxldCdzIHRoaW5rIHN0ZXAgYnkgc3RlcC4iLCJtb2RlbCI6InRleHQtZGF2aW5jaS0wMDMifQ%3D%3D" seamless width="100%" height="500" name="SELFHTML_in_a_box"></iframe>
 
 ## 结论
 零样本思维链也有效地改善了算术、常识和符号推理任务的结果。然而，毫不奇怪的是，它通常不如思维链提示过程有效。，在获取思维链提示的少量示例有困难的时候，零样本思维链可以派上用场。

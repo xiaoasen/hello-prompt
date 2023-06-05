@@ -4,7 +4,7 @@ comments: true
 
 # 🟢 思维链提示过程
 
-思维链(CoT)提示过程(@wei2022chain)是一种最近开发的提示方法，它鼓励大语言模型解释其推理过程。下图(@wei2022chain) 显示了 %%few shot standard prompt|few shot standard prompt%%（左)与链式思维提示过程（右）的比较。
+思维链(CoT)提示过程(@wei2022chain)是一种最近开发的提示方法，它鼓励大语言模型解释其推理过程。下图(@wei2022chain) 显示了 **常规提示过程(左)**与 **链式思维提示过程（右** 的比较。
 
 ![chain_of_thought_example](../assets/chain_of_thought_example.png)
 
