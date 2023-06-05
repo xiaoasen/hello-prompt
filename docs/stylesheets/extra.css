@@ -1,85 +1,46 @@
-
-/* Color Settings */
-/* https://github.com/squidfunk/mkdocs-material/blob/6b5035f5580f97532d664e3d1babf5f320e88ee9/src/assets/stylesheets/main/_colors.scss */
-/* https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#custom-colors */
-:root > * {
-    --md-primary-fg-color: #FFFFFF;
-    --md-primary-bg-color: #1D1D20;
-
-    --md-accent-fg-color: #999;
-
-    --md-typeset-color: #1D1D20;
-    --md-typeset-a-color: #2AA996;
+html {
+    overflow-y: scroll;
 }
 
-[data-md-color-scheme="slate"] {
-    --md-primary-fg-color: #2E303E;
-    --md-primary-bg-color: #FEFEFE;
-
-    --md-accent-fg-color: #999;
-
-    --md-typeset-color: #FEFEFE;
-    --md-typeset-a-color: #21C8B8;
+:root,
+[data-md-color-scheme=default],
+[data-md-color-scheme=slate] {
+    --md-primary-fg-color: #00435c;
+    --md-footer-bg-color: #00435c;
 }
 
-/* https://github.com/squidfunk/mkdocs-material/issues/4832#issuecomment-1374891676 */
-.md-nav__link[for] {
-  color: var(--md-default-fg-color) !important
+[data-md-color-scheme=slate] a {
+    --md-primary-fg-color: #76e4af;
+    --md-typeset-a-color: #76e4af;
 }
 
-/* Center Markdown Tables (requires md_in_html extension) */
-.center-table {
-  text-align: center;
+[data-md-color-scheme=slate] a:hover {
+    --md-accent-fg-color: #fe5252;
 }
 
-/* Reset alignment for table cells */
-.md-typeset .center-table :is(td,th):not([align]) {
-  text-align: initial;
+[data-md-color-scheme=slate] a:hover {
+    --md-accent-fg-color: #5cd9b6;
 }
 
-/* Font size */
-.md-typeset {
-  font-size: 0.75rem;
-  line-height: 1.5;
+
+.epic-timeline .nt-timeline-dot .icon {
+    color: white;
+    background: white;
+    border-radius: 50%;
 }
 
-.md-typeset pre {
-  font-size: 0.95em;
+#icons-credits>div {
+    max-width: 59rem;
+    margin: auto;
+    padding: .3rem;
 }
 
-/* Markdown Header */
-/* https://github.com/squidfunk/mkdocs-material/blob/dcab57dd1cced4b77875c1aa1b53467c62709d31/src/assets/stylesheets/main/_typeset.scss */
-.md-typeset h1 {
-  font-weight: 400;
-  color: var(--md-default-fg-color);
+.credits-note {
+    font-style: italic;
+    font-size: 0.7rem;
 }
 
-.md-typeset h2 {
-  font-weight: 400;
-}
-
-.md-typeset h3 {
-  font-weight: 500;
-}
-
-.md-typeset a {
-  text-decoration: underline;
-}
-
-/* Image align center */
-.center {
-  display: block;
-  margin: 0 auto;
-}
-
-/* font-family setting for Win10 */
-body {
-  --md-text-font-family: -apple-system,BlinkMacSystemFont,var(--md-text-font,_),Helvetica,Arial,sans-serif;
-  --md-code-font-family: var(--md-code-font,_),SFMono-Regular,Consolas,Menlo,-apple-system,BlinkMacSystemFont,var(--md-text-font,_),monospace;
-}
-
-/* max height of code block */
-/* https://github.com/squidfunk/mkdocs-material/issues/3444 */
-.md-typeset pre > code {
-  max-height: 25rem;
+.nt-card-image[style*="oad.png"],
+.nt-card-image[style*="spantable.png"] {
+    background-position: top !important;
 }
